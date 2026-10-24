@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "no_animations_bedro",
+  "version": "1.0.0",
+  "name": "No Animations (By Bedro)",
+  "description": "Disables player and mob movement animations for better FPS. Created by Bedro.",
+  "authors": [
+    "Bedro"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.bedro.noanim.NoAnimationsMod"
+    ]
+  },
+  "mixins": [
+    "no_animations_bedro.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
